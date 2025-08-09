@@ -1,5 +1,4 @@
 import { AfroLogo } from "./AfroLogo";
-import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
@@ -17,15 +16,6 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
           We don't build for hypothetical users. Every app we make starts with a real human frustration we've lived through or observed up close.
         </p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-8 py-6">
-            See Our Work
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-            Our Approach
-          </Button>
-        </div>
       </div>
     </section>
   );
