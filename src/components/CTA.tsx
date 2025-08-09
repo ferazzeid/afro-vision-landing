@@ -14,7 +14,7 @@ export const CTA = () => {
           </p>
           
           <p className="text-lg text-primary-foreground/70">
-            Follow our releases, try them out, and see how small software can make a big difference.
+            sociallyfamous@gmail.com
           </p>
         </div>
       </div>
